@@ -18,7 +18,7 @@ import src.Calculs;
  *
  */
 @RunWith(Parameterized.class)
-class CalculsTest3 {
+class CalculTest3 {
 
       @Test
       void test()
