@@ -87,11 +87,6 @@
                     <argLine>
                         --illegal-access=permit
                     </argLine>
-                    <includes>
-                        <include>**/Test*.java</include>
-                        <include>**/*Test*.java</include>
-                        <include>**/*Tests.java</include>
-                    </includes>
                 </configuration>
             </plugin>
             <plugin>
