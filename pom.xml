@@ -88,6 +88,9 @@
                         --illegal-access=permit
                     </argLine>
                     <includes>
+                        <include>**/Test*.java</include>
+                        <include>**/*Test.java</include>
+                        <include>**/*Tests.java</include>
                         <include>**/CalculTest3.java</include>
                     </includes>
                 </configuration>
