@@ -62,6 +62,11 @@ class CalculsTest {
 	 */
 	@Test
 	void testAdditionner() {
+		assertEquals(c1.additionner(), 3, "Methode additionner non conforme");
+		assertEquals(c2.additionner(), 30, "Methode additionner non conforme");
+		assertEquals(c3.additionner(), 300, "Methode additionner non conforme");
+
+
 	}
 
 	/**
@@ -69,7 +74,10 @@ class CalculsTest {
 	 */
 	@Test
 	void testDiviser() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		assertEquals(c1.diviser(),0, "Methode diviser non conforme");
+		assertEquals(c2.diviser(),0, "Methode diviser non conforme");
+		assertEquals(c3.diviser(),0, "Methode diviser non conforme");
 	}
 
 	/**
@@ -77,7 +85,9 @@ class CalculsTest {
 	 */
 	@Test
 	void testSoustraire() {
-		fail("Not yet implemented");
+		assertEquals(c1.soustraire(),-1,"Methode soustraire non conforme");
+		assertEquals(c2.soustraire(),-10,"Methode soustraire non conforme");
+		assertEquals(c3.soustraire(),-100,"Methode soustraire non conforme");
 	}
 
 }
